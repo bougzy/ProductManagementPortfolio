@@ -76,7 +76,7 @@ function Hero() {
 
             <ul>
              <li>
-                <a onClick={()=>setNavIsOpened(false)} href="">Resume</a> 
+                <a download href={resume} onClick={()=>setNavIsOpened(false)}>Resume</a> 
                 </li> 
                 </ul>
         </nav>
@@ -107,8 +107,8 @@ function Hero() {
        <div className="hero-ctas">
        <a href="#projects"> <button>My Projects</button></a>
        
-{/*         <a download href={resume}><button>Resume</button></a>  */}
-        <a><button>Resume</button></a> 
+        <a download href={resume}><button>Resume</button></a> 
+        
        </div>
       </div>
       

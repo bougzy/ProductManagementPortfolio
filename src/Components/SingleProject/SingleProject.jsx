@@ -46,7 +46,7 @@ function SingleProject({name, description, stack, images, links}) {
                         <button>Live Link <img src={link} /></button>
                         </a>
 
-                    <a target="_blank">
+                    <a href="https://hng.tech/internship" target="_blank">
                         <button>HNG Project</button>
                     </a>
                 </div>
