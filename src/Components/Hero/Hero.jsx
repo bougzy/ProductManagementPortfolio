@@ -107,7 +107,8 @@ function Hero() {
        <div className="hero-ctas">
        <a href="#projects"> <button>My Projects</button></a>
        
-        <a download href={resume}><button>Resume</button></a> 
+{/*         <a download href={resume}><button>Resume</button></a>  */}
+        <a><button>Resume</button></a> 
        </div>
       </div>
       
