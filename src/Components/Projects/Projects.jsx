@@ -28,28 +28,41 @@ import arrow from "../../assets/icons/view-more-arrow.svg"
 function Projects() {
   const [projects, setProjects] = useState([{
     name : "Python BOILERPLATE",
-    description : "The Python Boilerplate serves as a detailed guide for the development of reusable and efficient Python boilerplates. These boilerplate aims to simplify the process of setting up Python projects by providing a structured and standardized starting point. The document outlines the key components, functionalities, and standards that the boilerplate should include, ensuring consistency, best practices, and ease of use for developers.",
+    description : `I enlisted the functionalities, requirements, acceptance criteria, dependencies, risk and mitigation, objectives, and scope.
+
+
+The Python Boilerplate guides the development of reusable and efficient Python project templates. It outlines key components, functionalities, and standards to ensure consistency and ease of use for developers.`,
     stack : ["ReactJS", "CSS", "Invision Studio"],
     images: [boilerplate, projectone, successoverview ],
     links : ["https://docs.google.com/document/d/1pH3NU6yZyQjqkWoHLUIGmeThadHMMV659EBsYY357QE/edit"]
   },
   {
     name : "Functional Requirement Document",
-    description : 'The FRD details the essential features and functionalities needed for the project. It outlines the specific requirements and standards to ensure consistency, quality, and usability. The FRD provides a comprehensive guide by defining key components, expected behaviors, and best practices, facilitating a clear and effective development process.',
+    description : `I enlisted the feature name, epic, user story, parameters, and acceptance criteria.
+
+
+The FRD details the essential features and functionalities needed for the project. It outlines specific requirements and standards to ensure consistency, quality, and usability. The document defines key components, expected behaviors, and best practices, facilitating a clear and effective development process.`.
+
+
+The FRD details the essential features and functionalities needed for the project. It outlines specific requirements and standards to ensure consistency, quality, and usability. The document defines key components, expected behaviors, and best practices, facilitating a clear and effective development process.`,
     stack : ["ReactJS", "CSS", "Invision Studio"],
     images: [frd, frdauth, frdface ],
     links : ["https://docs.google.com/document/d/1G5lm-I7QiTHdeLFzJr47oAPXK703wN7VLUePYxeg1rI/edit"]
   },
   {
     name : "GitHub Ticket",
-    description : `The ticket serves as a communication tool for the development team, enabling collaboration, discussion of solutions, and monitoring of progress. It includes fields like title, description, labels (e.g., bug, enhancement, documentation), assignees, and milestones to help organize and prioritize work efficiently, ensuring the AI video generator project stays on track and meets its goals.`,
+    description : `I created a ticket, including description, purpose, user story, requirements, expected outcome, acceptance criteria 
+
+The ticket serves as a communication tool for the development team, enabling collaboration, discussion of solutions, and monitoring of progress. It includes fields like title, description, labels (e.g., bug, enhancement, documentation), assignees, and milestones to help organize and prioritize work efficiently, ensuring the AI video generator project stays on track and meets its goals.`,
     stack : ["ReactJS", "CSS", "Invision Studio"],
     images: [ticket, gitticket, linearticket ],
     links : ["https://linear.app/ai-video-and-thumbnail-generator/issue/BAC-31/endpoints-for-the-about-page-values-settable-from-admin-panel"]
   },
   {
     name : "Market Intelligence Report",
-    description : "The market intelligence report reveals key trends, competitive insights, and customer needs. It highlights market size, growth forecasts, and major industry players. This report provides actionable insights and strategic recommendations to innovate and position for success.",
+    description : `I revealed key trends, competitive insights, customer needs, market size, growth forecasts, and major industry players, and provided actionable insights and strategic recommendations.
+
+The market intelligence report reveals key trends, competitive insights, and customer needs. It highlights market size, growth forecasts, and major industry players. This report provides actionable insights and strategic recommendations to innovate and position for success.`,
     stack : ["HTML", "CSS", "JavaScript", "Invision Studio"],
     images: [marketintelligence ],
     links : ["https://docs.google.com/document/d/1bcYlqu-ARaZSJZeXdBGcQLDIrhAaTCwi_cBCbVFsTRA/edit?usp=sharing"]
