@@ -39,17 +39,15 @@ function SingleProject({name, description, stack, images, links}) {
                     <p>{description}</p>
                 </div>
 
-                <div className="tags">                    
-                    {mappedStack}
-                </div>
+               
 
                 <div className="project-buttons">
                     <a target="_blank" href={links[0]}>
-                        <button>Live Site <img src={link} /></button>
+                        <button>Live Link <img src={link} /></button>
                         </a>
 
-                    <a target="_blank" href={links[1]}>
-                        <button>Source Code <img src={github} /></button>
+                    <a target="_blank">
+                        <button>HNG Project</button>
                     </a>
                 </div>
 

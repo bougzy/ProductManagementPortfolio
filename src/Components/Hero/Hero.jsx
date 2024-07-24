@@ -52,7 +52,7 @@ function Hero() {
 
             <ul>
               <li>
-                <a onClick={()=>setNavIsOpened(false)} href="#stack">Tech Stack</a>
+                <a onClick={()=>setNavIsOpened(false)} href="#stack">Tools</a>
                 </li>
                 </ul>
 
@@ -92,16 +92,16 @@ function Hero() {
          
 
        <p className="sub-heading">
-        Hey, i'm Nsikan-David. I am a
+        Hey, i'm Nnachi Joy. I am a
        </p>
 
        <div className="hero-heading">
-        <h1>FRONTEND WEB DEVELOPER &</h1>
-        <h1>UI DESIGNER</h1>
+        <h1>PROJECT / PRODUCT MANAGER &</h1>
+        <h1>DATA ANALYST</h1>
        </div>
 
        <p className="hero-intro">
-        Mainly building with ReactJS, I focus on turning ideas into functional and visually stunning realities. Lets collaborate and create something remarkable together!
+       Shaping Visions into Market-Leading Products, I Craft Strategy and Deliver Results.Let's Innovate and Achieve Build Solutions!"
        </p>
 
        <div className="hero-ctas">

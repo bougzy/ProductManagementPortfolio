@@ -22,8 +22,18 @@
     margin: 0 0 2rem 0;
 }
 
+.contact-container > div a {
+    color: white;
+    font-size: 2rem;
+    font-family: clashGrotesk;
+    font-weight: 600;
+    display: flex;
+    text-decoration: none; 
+}
+
+
 .contact-container > div > div{
-    background-color: red;
+    background-color: white;
     width: 5rem;
     height: 5rem;
     max-width: fit-content;

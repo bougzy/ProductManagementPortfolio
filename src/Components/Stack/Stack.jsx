@@ -1,27 +1,30 @@
 import { useState } from "react"
-import html from "../../assets/icons/html5-original.svg"
-import css from "../../assets/icons/css3-original.svg"
-import js from "../../assets/icons/javascript-original.svg"
-import tailwind from "../../assets/icons/tailwindcss-plain.svg"
-import react from "../../assets/icons/react-original.svg"
-import invision from "../../assets/icons/invision-icon.svg"
+import jiraa from "../../assets/icons/jiraa.png"
+import  teamss from "../../assets/icons/teamss.png"
+import  slackk from "../../assets/icons/slackk.png"
+import  linearr from "../../assets/icons/linearr.png"
+import  trelloo from "../../assets/icons/trelloo.png"
+import  asanaa from "../../assets/icons/asanaa.png"
 import SingleStack from "../SingleStack/SingleStack"
 import "./Stack.css"
 
 function Stack() {
-    const [stack, setStack] = useState([{name : "HTML", icon : html}, {name : "CSS", icon : css}, {name : "JavaScript", icon : js}, {name: "Tailwind CSS", icon : tailwind}, {name : "ReactJS", icon : react}, {name: "Invision Studio", icon : invision}])
-
-    const mappedStack = stack.map(({icon, name}) => {
-        return <SingleStack key={name} icon={icon} name ={name} />
-    })
+  
   return (
     <section className="stack">
         <div className="stack-inner">
-              <h1 id="stack">TECH STACK</h1>
+              <h1 id="stack">PROJECT TOOLS</h1>
 
         <div className="stack-container">
-        {mappedStack}
+        <img src={jiraa} alt="jira" className="tools-img" />
+        <img src={trelloo} alt="trello" className="tools-img" />
+        <img src={linearr} alt="linear" className="tools-img mt-4" />
+        <img src={teamss} alt="teams" className="tools-img-teams" />
+        <img src={asanaa} alt="asana" className="tools-img" />
+        <img src={slackk} alt="slack" className="tools-img mt-5"/>
+       
         </div>
+        
         </div>
       
     </section>

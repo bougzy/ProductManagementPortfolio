@@ -3,22 +3,22 @@ import SingleProject from "../SingleProject/SingleProject"
 import "./Projects.css"
 
 // images 
-import remindrOne from "../../assets/images/remindr/15shots_so-min.jpg"
-import remindrTwo from "../../assets/images/remindr/120shots_so-min.jpg"
-import remindrThree from "../../assets/images/remindr/471shots_so-min.jpg"
+import boilerplate from "../../assets/images/remindr/boilerplate.jpeg"
+import projectone from "../../assets/images/remindr/projectone.png"
+import successoverview from "../../assets/images/remindr/successoverview.png"
 
 //bulk downloader
-import bulkOne from "../../assets/images/bulk/168shots_so-min.jpg"
-import bulkTwo from "../../assets/images/bulk/621shots_so-min.jpg"
-import bulkThree from "../../assets/images/bulk/27shots_so-min.jpg"
+import frd from "../../assets/images/bulk/frd.png"
+import frdface from "../../assets/images/bulk/frdface.png"
+import frdauth from "../../assets/images/bulk/frdauth.png"
 
 //mathivities
-import mathOne from "../../assets/images/mathivities/154shots_so-min.jpg"
-import mathTwo from "../../assets/images/mathivities/441shots_so-min.jpg"
-import mathThree from "../../assets/images/mathivities/762shots_so-min.jpg"
+import ticket from "../../assets/images/mathivities/ticket.png"
+import linearticket from "../../assets/images/mathivities/linearticket.png"
+import gitticket from "../../assets/images/mathivities/gitticket.png"
 
 //weather
-import weatherOne from "../../assets/images/weather/687shots_so-min.jpg"
+import marketintelligence from "../../assets/images/weather/marketintelligence.jpg"
 import weatherTwo from "../../assets/images/weather/570shots_so-min.jpg"
 import weatherThree from "../../assets/images/weather/56shots_so.png"
 
@@ -27,33 +27,32 @@ import arrow from "../../assets/icons/view-more-arrow.svg"
 
 function Projects() {
   const [projects, setProjects] = useState([{
-    name : "Remindr",
-    description : "Remindr is a web application made to help web users remember important information / tasks they keep forgetting due to their busy web activity. It uses push notifications to remind them based on the time interval they set.",
+    name : "Python BOILERPLATE",
+    description : "The Python Boilerplate serves as a detailed guide for the development of reusable and efficient Python boilerplates. These boilerplate aims to simplify the process of setting up Python projects by providing a structured and standardized starting point. The document outlines the key components, functionalities, and standards that the boilerplate should include, ensuring consistency, best practices, and ease of use for developers.",
     stack : ["ReactJS", "CSS", "Invision Studio"],
-    images: [remindrOne, remindrTwo, remindrThree ],
-    links : ["https://remindr-webapp.netlify.app/", "https://github.com/Daviddix/Remindr-webapp"]
+    images: [boilerplate, projectone, successoverview ],
+    links : ["https://docs.google.com/document/d/1pH3NU6yZyQjqkWoHLUIGmeThadHMMV659EBsYY357QE/edit"]
   },
   {
-    name : "Bulk Image Downloader",
-    description : `Bulk Image Downloader is a web application that eases the burden of bulk image downloading by allowing you download "collection packs" which may contain 10, 50 or even 1000 images in just a few clicks`,
+    name : "Functional Requirement Document",
+    description : 'The FRD details the essential features and functionalities needed for the project. It outlines the specific requirements and standards to ensure consistency, quality, and usability. The FRD provides a comprehensive guide by defining key components, expected behaviors, and best practices, facilitating a clear and effective development process.',
     stack : ["ReactJS", "CSS", "Invision Studio"],
-    images: [bulkOne, bulkTwo, bulkThree ],
-    links : ["https://bulk-downloader.netlify.app/", "https://github.com/Daviddix/bulk-image-downloader"]
+    images: [frd, frdauth, frdface ],
+    links : ["https://docs.google.com/document/d/1G5lm-I7QiTHdeLFzJr47oAPXK703wN7VLUePYxeg1rI/edit"]
   },
   {
-    name : "Mathivities",
-    description : `Mathivities is a delightful web-based game designed to enhance the math skills of children aged 7 to 10.
-    Through engaging and fun-filled mathematical challenges, young learners can effectively sharpen their abilities while enjoying the learning process.`,
+    name : "GitHub Ticket",
+    description : `The ticket serves as a communication tool for the development team, enabling collaboration, discussion of solutions, and monitoring of progress. It includes fields like title, description, labels (e.g., bug, enhancement, documentation), assignees, and milestones to help organize and prioritize work efficiently, ensuring the AI video generator project stays on track and meets its goals.`,
     stack : ["ReactJS", "CSS", "Invision Studio"],
-    images: [mathOne, mathTwo, mathThree ],
-    links : ["https://mathivities.netlify.app", "https://github.com/Daviddix/math-game"]
+    images: [ticket, gitticket, linearticket ],
+    links : ["https://linear.app/ai-video-and-thumbnail-generator/issue/BAC-31/endpoints-for-the-about-page-values-settable-from-admin-panel"]
   },
   {
-    name : "Daily Weather",
-    description : "Not your average weather web app- it's packed with standard features like displaying the current temperature and weather details plus another cool feature, the ability of the background to adapt based on the current temperature or time",
+    name : "Market Intelligence Report",
+    description : "The market intelligence report reveals key trends, competitive insights, and customer needs. It highlights market size, growth forecasts, and major industry players. This report provides actionable insights and strategic recommendations to innovate and position for success.",
     stack : ["HTML", "CSS", "JavaScript", "Invision Studio"],
-    images: [weatherOne, weatherTwo, weatherThree ],
-    links : ["https://daily-weather-webapp.netlify.app/", "https://github.com/Daviddix/weather-app"]
+    images: [marketintelligence ],
+    links : ["https://docs.google.com/document/d/1bcYlqu-ARaZSJZeXdBGcQLDIrhAaTCwi_cBCbVFsTRA/edit?usp=sharing"]
   }])
 
   const mappedProjects = projects.map(({name, description, stack, images, links})=>{
@@ -68,12 +67,6 @@ function Projects() {
             {mappedProjects}
             </div>
 
-            <a href="https://github.com/Daviddix?tab=repositories" target="_blank" >
-              <button className="view-more">
-              View more on Github 
-              <img src={arrow} alt="" />
-            </button>
-            </a>
             
         </div>
     </section>

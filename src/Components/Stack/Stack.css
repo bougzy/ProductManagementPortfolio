@@ -27,8 +27,26 @@
     row-gap: 4rem;
 }
 
+
 @media screen and (min-width: 600px) {
     .stack-container{
         width: 100%;
     }
 }
+
+.tools-img{
+    width: 130px;
+    height: auto;
+    
+}
+
+.tools-img-teams{
+    width: 160px;
+    height: auto;
+}
+
+/* .tools-img-slack{
+    width: 160px;
+    height: auto;
+    margin-bottom: 190px !important;
+} */
