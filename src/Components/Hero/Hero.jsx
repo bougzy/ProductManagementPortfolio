@@ -75,9 +75,9 @@ function Hero() {
                 </ul>
 
             <ul>
-              <li>
-{/*                 <a onClick={()=>setNavIsOpened(false)} href="https://github.com/Daviddix" target="_blank">My Github</a> */}
-                </li>
+{/*               <li>
+                <a onClick={()=>setNavIsOpened(false)} href="">My Github</a> 
+                </li> */}
                 </ul>
         </nav>
 
