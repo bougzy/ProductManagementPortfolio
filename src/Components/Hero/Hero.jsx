@@ -76,7 +76,7 @@ function Hero() {
 
             <ul>
              <li>
-                <a onClick={()=>setNavIsOpened(false)} href="">My Github</a> 
+                <a onClick={()=>setNavIsOpened(false)} href="">Resume</a> 
                 </li> 
                 </ul>
         </nav>
