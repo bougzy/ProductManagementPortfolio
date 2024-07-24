@@ -68,6 +68,18 @@ function Hero() {
                 </li>
                 </ul>
 
+                <ul>
+              <li>
+                <a onClick={()=>setNavIsOpened(false)} href="#journey">The Journey</a>
+                </li>
+                </ul>
+
+                <ul>
+              <li>
+                <a onClick={()=>setNavIsOpened(false)} href="#skills">Skills</a>
+                </li>
+                </ul>
+
             <ul>
               <li>
                 <a onClick={()=>setNavIsOpened(false)} href="#contact">Contact Me</a>
@@ -76,7 +88,7 @@ function Hero() {
 
             <ul>
              <li>
-                <a download href={resume} onClick={()=>setNavIsOpened(false)}>Resume</a> 
+                <a download href={resume} onClick={()=>setNavIsOpened(false)} className="bg-white text-primary">Download Resume</a> 
                 </li> 
                 </ul>
         </nav>
