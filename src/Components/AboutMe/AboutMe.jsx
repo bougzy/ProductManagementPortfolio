@@ -1,4 +1,4 @@
-import myimage from "../../assets/images/myimage.png"
+import myimage from "../../assets/myimage.png"
 import { Container, Row, Col } from 'react-bootstrap';
 import "./AboutMe.css"
 
